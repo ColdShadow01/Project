@@ -2,6 +2,6 @@
    Tester: Nisa*/
 public interface IQuiz {
   void loadQuestion(int index);
-  void checkAnswer();
-  void showResult();
+  boolean checkAnswer(int selectedAnswerIndex);
+  void showResult() throws InvalidScoreException; // Throws custom exception
 }
