@@ -1,5 +1,5 @@
-//Creator: Wan Adam
-//Tester: Nisa
+//Creator: 
+//Tester: 
 //Description: Interface defining the required gamification methods.
 public interface Gamifiable {
   void addPoints(int baseScore);
