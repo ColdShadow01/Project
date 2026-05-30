@@ -5,8 +5,8 @@ import java.io.PrintWriter;
 import java.io.IOException;
 
 /**
-  Creator: Wan Adam
-  Tester: Nisa
+  Creator: 
+  Tester: 
   Description: Abstract parent class managing shared quiz logic, timer, and file storage.
  */
 public abstract class AbstractQuizModule implements IQuiz {
