@@ -1,5 +1,5 @@
-//Creator: Wan Adam 
-//Testor: Nisa
+//Creator: 
+//Testor: 
 //Description: Manages user data, tracks scores, and handles gamifications elements.
 public class UserAccount implements Gamifiable {
     
