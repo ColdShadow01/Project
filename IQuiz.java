@@ -1,7 +1,7 @@
-/* Creator: Wan Adam
-   Tester: Nisa*/
+/* Creator: 
+   Tester: */
 public interface IQuiz {
-  void loadQuestion(int index);
+  void loadQuestion(int index) throws QuizNotFoundException;
   boolean checkAnswer(int selectedAnswerIndex);
-  void showResult() throws InvalidScoreException; // Throws custom exception
+  void showResult() throws InvalidInputException; 
 }
